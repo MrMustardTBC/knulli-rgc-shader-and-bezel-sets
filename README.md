@@ -7,4 +7,10 @@ I have been using [Knulli](https://knulli.org/) on several anbernic XX devices a
 
 This is very much a work in progress and has not been tested for every emulator in every configuration.  I also realize that these types of configuration options are strongly tied to personal preference, but I wanted a way for someone using knulli to be able to quickly try applying one set of recommended settings as trying to navigate the existing options can be a little overwheming. 
 
-This is an attempt to go a step beyond the [RGC overlay pack](https://github.com/retrogamecorps/RGC-Overlay-Pack) by directly applying the settings in es.
+This is an attempt to go a step beyond the [RGC overlay pack](https://github.com/retrogamecorps/RGC-Overlay-Pack) by directly applying the settings in es.  Currently, the only shader it directly borrows from is pixel_aa_fast from retroarch as the others in the RGC pack have arleady made their way into the knulli image.  I believe that pixel_aa_fast will also eventually be included in knulli.  
+
+This adds four shader sets to knulli:
+* sharp-shimmerless: although this shader is now included in knully by default, there is no es shader set for it so this is a quick way to simply apply this shader across the board
+* retro-game-corp-720x720: this is an implementation of the recommendations for square display handhelds at the end of the RGC article. (e.g. cubexx)
+* retro-game-corp-dramatic-crt: this mostly applies the RGC recommendations for a more nostalgic rendering and does not depend on many bezels.  It is not integer scaled.
+* retro-game-corp-normal: this applies RGC's other recommendations, mostly with integer scaling and is very much a work in progress.
