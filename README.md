@@ -14,3 +14,8 @@ This adds four shader sets to knulli:
 * retro-game-corp-720x720: this is an implementation of the recommendations for square display handhelds at the end of the RGC article. (e.g. cubexx)
 * retro-game-corp-dramatic-crt: this mostly applies the RGC recommendations for a more nostalgic rendering and does not depend on many bezels.  It is not integer scaled.
 * retro-game-corp-normal: this applies RGC's other recommendations, mostly with integer scaling and is very much a work in progress.
+
+There are also three presets being used:
+* pixel_aa_fast: in order to use the included pixel_aa_fast shader
+* rgc_glow_crt: in order to have a preset that combines kawaze_glow and zfast_crt_geo_svideo
+* pixel_aa_w_subpx: in order to use the pixel_aa with subpixel rendering set to 1
