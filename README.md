@@ -2,4 +2,9 @@
 A series of shader and bezel sets intended for use with Knulli/Batocera based on Retro Game Corps recommendations.
 
 Disclaimer: I am not affiliated with Retro Game Corps or Knulli, I just wanted to find an easier way to implement some of the shader and decorations recommended by RGC.
-`
+
+I have been using [Knulli](https://knulli.org/) on several anbernic XX devices as well as a trimui brick and I have slowly come around to accepting the design philosophy that as much configuration should be done in emulation station (es) as possible.  I also started looking at shaders and overlays as a way to enhance the experience and either improve image quality or generate more nostalga.  To that end, I have found [Retro Game Corps guide to shaders and overlays](https://retrogamecorps.com/2024/09/01/guide-shaders-and-overlays-on-retro-handhelds/) very helpful as it goes into great detail about how different shaders will impact the experience, including performance. However, the downsize is that it doesn't really follow the knulli philosophy for using a top down configuration and, instead, disables those configuration settings in es and uses retroarch overrides to implement any changes. This is fine, but a little fiddly, and I wanted to see if I could create some knulli/batocera shader and decoration sets that would make it easy to apply (most) of the RGC recommended configurations directly in es and have them just automatically apply to the various emulators.
+
+This is very much a work in progress and has not been tested for every emulator in every configuration.  I also realize that these types of configuration options are strongly tied to personal preference, but I wanted a way for someone using knulli to be able to quickly try applying one set of recommended settings as trying to navigate the existing options can be a little overwheming. 
+
+This is an attempt to go a step beyond the [RGC overlay pack](https://github.com/retrogamecorps/RGC-Overlay-Pack) by directly applying the settings in es.
