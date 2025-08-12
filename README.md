@@ -19,3 +19,6 @@ There are also three presets being used:
 * pixel_aa_fast: in order to use the included pixel_aa_fast shader
 * rgc_glow_crt: in order to have a preset that combines kawaze_glow and zfast_crt_geo_svideo
 * pixel_aa_w_subpx: in order to use the pixel_aa with subpixel rendering set to 1
+
+Installation: 
+Copy the 'shaders' folder into the SHARE or userdata folder on the device, at the same level as the roms and bios folders.
