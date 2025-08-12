@@ -1,0 +1,6 @@
+shaders = 1
+
+shader0 = ../../../usr/share/batocera/shaders/pixel-art-scaling/shaders/pixel_aa/pixel_aa.glsl
+filter_linear0 = true
+scale_type0 = viewport
+PIX_AA_SUBPX = "1.0"

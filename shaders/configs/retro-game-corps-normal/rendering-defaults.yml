@@ -1,0 +1,81 @@
+default:
+  shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless
+  
+arcade:
+  shader: none
+mame:
+  shader: none
+fbneo:
+  shader: none
+cps1:
+  shader: none
+cps2:
+  shader: none
+cps3:
+  shader: none
+naomi:
+  shader: none
+atomiswave:
+  shader: none
+gamegear:
+  shader: none
+gameandwatch:
+  shader: none
+pokemini:
+  shader: none
+gb: 
+  shader: none
+gbc:
+  shader: none
+virtualboy: 
+  shader: none
+ds:
+  shader: none
+psp:
+  shader: none
+lynx:
+  shader: none
+gamate:
+  shader: none
+gmaster:
+  shader: none
+supervision:
+  shader: none
+megaduck: 
+  shader: none
+gamecom:
+  shader: none
+ngpc:
+  shader: none
+ngp:
+  shader: none
+wonderswan:
+  shader: none
+wonderswancolor:
+  shader: none
+gp32:
+  shader: none
+arduboy:
+  shader: none
+lowresnx:
+  shader: none
+lutro:
+  shader: none
+pico8:
+  shader: none
+tic80:
+  shader: none
+uzebox:
+  shader: none
+vircon32:
+  shader: none
+wasm4:
+  shader: none
+scummvm:
+  shader: none
+openbor:
+  shader: none
+vpinball: 
+  shader: none
+zmachine:
+  shader: none

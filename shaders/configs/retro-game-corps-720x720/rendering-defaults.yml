@@ -1,0 +1,17 @@
+default:
+  shader: rgcshaders/pixel_aa_w_subpx
+  
+snes:
+  shader: none
+nes:
+  shader: none
+n64:
+  shader: rgcshaders/pixel_aa_fast
+gba:
+  shader: none
+pcengine:
+  shader: none
+psx:
+  shader: rgcshaders/pixel_aa_fast
+dreamcast:
+  shader: rgcshaders/pixel_aa_fast
