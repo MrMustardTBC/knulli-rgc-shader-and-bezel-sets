@@ -1,0 +1,474 @@
+# Batocera/Knulli Rendering Defaults Configuration
+# Optimized for RG35XX H (640x480) - Performance over visuals
+# Focus on authenticity while maintaining smooth gameplay
+
+# Global fallback for any unlisted systems
+default:
+  shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless
+
+# Atari Systems
+atari2600:
+  shader: crt/crt-geom
+  shader_parameters:
+    CRTgamma: 2.5
+    d: 1.5
+    R: 3.5
+    cornersize: 0.03
+    cornersmooth: 1000.0
+    overscan_x: 100.0
+    overscan_y: 100.0
+    DOTMASK: 0.3
+    scanline_weight: 0.3
+    interlace_detect: 1.0
+  # Alternative: scanlines/scanlines (lighter)
+
+atari5200:
+  shader: crt/crt-geom
+  shader_parameters:
+    CRTgamma: 2.5
+    d: 1.5
+    scanline_weight: 0.3
+
+atari7800:
+  shader: crt/crt-geom
+  shader_parameters:
+    CRTgamma: 2.5
+    d: 1.5
+    scanline_weight: 0.3
+
+lynx:
+  shader: handheld/lcd3x
+  shader_parameters:
+    BRIGHTEN_SCANLINES: 0.25
+  # Alternative: scalefx/scale2xplus
+
+jaguar:
+  shader: crt/crt-easymode
+  shader_parameters:
+    scanline_weight: 0.25
+    scanline_gap_brightness: 0.72
+    curvature: 0.02
+  # Alternative: crt/crt-geom
+
+# Nintendo Systems
+nes:
+  shader: ntsc/ntsc-256px-svideo
+  shader_parameters:
+    crtgamma: 2.5
+    scanline_weight: 0.58
+  # Alternative: crt/crt-easymode
+
+fds:
+  shader: ntsc/ntsc-256px-svideo
+  shader_parameters:
+    crtgamma: 2.5
+    scanline_weight: 0.58
+
+snes:
+  shader: crt/crt-guest-dr-venom
+  #shader: ntsc/ntsc-256px-composite
+  #shader_parameters:
+  #  crtgamma: 2.4
+  #  scanline_weight: 0.58
+  # Recommended download: guest-dr-venom CRT shader pack
+  # Link: https://github.com/guest-r/guest.r-dr.venom
+  # Alternative: crt/crt-geom
+
+n64:
+  shader: crt/crt-easymode
+  shader_parameters:
+    blur_offset: 2.0
+    scanline_weight: 0.25
+    scanline_gap_brightness: 0.58
+    curvature: 0.02
+  # Alternative: interpolation/jinc2-sharper
+
+gc:
+  shader: crt/crt-easymode
+  shader_parameters:
+    blur_offset: 1.5
+    scanline_weight: 0.20
+    scanline_gap_brightness: 0.50
+    curvature: 0.02
+
+wii:
+  shader: crt/crt-easymode
+  shader_parameters:
+    scanline_weight: 0.15
+    scanline_gap_brightness: 0.45
+    curvature: 0.02
+
+# Nintendo Handhelds
+gb:
+  shader: handheld/gameboy
+  shader_parameters:
+    response_time: 0.333
+  # Alternative: handheld/lcd-grid
+
+gbc:
+  shader: handheld/gbc-color
+  shader_parameters:
+    lighten_screen: 0.05
+  # Alternative: handheld/lcd3x
+
+gba:
+  shader: handheld/lcd3x
+  shader_parameters:
+    BRIGHTEN_LCD: 1.05
+    BRIGHTEN_SCANLINES: 0.25
+  # Recommended: mgba color correction shader
+  # Link: https://github.com/libretro/common-shaders/tree/master/handheld/shaders
+  # Alternative: scalehq/2xsal
+
+nds:
+  shader: handheld/lcd3x
+  shader_parameters:
+    BRIGHTEN_SCANLINES: 0.20
+
+3ds:
+  shader: handheld/lcd3x
+  shader_parameters:
+    BRIGHTEN_SCANLINES: 0.15
+
+# Sega Systems
+mastersystem:
+  shader: crt/crt-geom
+  shader_parameters:
+    CRTgamma: 2.5
+    d: 1.5
+    scanline_weight: 0.35
+    DOTMASK: 0.3
+
+megadrive:
+  shader: crt/crt-geom
+  shader_parameters:
+    CRTgamma: 2.4
+    d: 1.5
+    scanline_weight: 0.40
+    DOTMASK: 0.3
+
+segacd:
+  shader: crt/crt-geom
+  shader_parameters:
+    CRTgamma: 2.4
+    d: 1.5
+    scanline_weight: 0.40
+    DOTMASK: 0.3
+
+sega32x:
+  shader: crt/crt-geom
+  shader_parameters:
+    CRTgamma: 2.4
+    d: 1.5
+    scanline_weight: 0.40
+    DOTMASK: 0.3
+
+saturn:
+  shader: crt/crt-easymode
+  shader_parameters:
+    blur_offset: 1.5
+    scanline_weight: 0.30
+    scanline_gap_brightness: 0.65
+    curvature: 0.02
+
+dreamcast:
+  shader: crt/crt-easymode
+  shader_parameters:
+    scanline_weight: 0.25
+    scanline_gap_brightness: 0.55
+    curvature: 0.02
+
+# Sega Handhelds
+gamegear:
+  shader: handheld/lcd3x
+  shader_parameters:
+    BRIGHTEN_LCD: 1.1
+    BRIGHTEN_SCANLINES: 0.30
+
+# Sony Systems
+psx:
+  shader: dithering/mdapt
+  #shader: crt/crt-easymode
+  #shader_parameters:
+  #  blur_offset: 2.0
+  #  scanline_weight: 0.35
+  #  scanline_gap_brightness: 0.70
+  #  curvature: 0.02
+  # Recommended: MDAPT dithering shader for PSX
+  # Link: https://github.com/libretro/common-shaders/tree/master/dithering
+  # Alternative: crt/crt-geom
+
+ps2:
+  shader: crt/crt-easymode
+  shader_parameters:
+    blur_offset: 1.5
+    scanline_weight: 0.30
+    scanline_gap_brightness: 0.60
+    curvature: 0.02
+
+psp:
+  shader: handheld/lcd3x
+  shader_parameters:
+    BRIGHTEN_LCD: 0.95
+    BRIGHTEN_SCANLINES: 0.15
+
+# PC Engine / TurboGrafx
+pcengine:
+  shader: crt/crt-geom
+  shader_parameters:
+    CRTgamma: 2.5
+    d: 1.5
+    scanline_weight: 0.40
+    DOTMASK: 0.3
+
+pcenginecd:
+  shader: crt/crt-geom
+  shader_parameters:
+    CRTgamma: 2.5
+    d: 1.5
+    scanline_weight: 0.40
+    DOTMASK: 0.3
+
+supergrafx:
+  shader: crt/crt-geom
+  shader_parameters:
+    CRTgamma: 2.5
+    d: 1.5
+    scanline_weight: 0.40
+    DOTMASK: 0.3
+
+# SNK Systems
+neogeo:
+  shader: crt/crt-geom
+  shader_parameters:
+    CRTgamma: 2.4
+    d: 1.5
+    scanline_weight: 0.45
+    DOTMASK: 0.4
+  # Alternative: crt/crt-easymode
+
+neogeocd:
+  shader: crt/crt-geom
+  shader_parameters:
+    CRTgamma: 2.4
+    d: 1.5
+    scanline_weight: 0.45
+    DOTMASK: 0.4
+
+ngp:
+  shader: handheld/lcd3x
+  shader_parameters:
+    BRIGHTEN_LCD: 1.1
+    BRIGHTEN_SCANLINES: 0.25
+
+ngpc:
+  shader: handheld/lcd3x
+  shader_parameters:
+    BRIGHTEN_LCD: 1.05
+    BRIGHTEN_SCANLINES: 0.25
+
+# Arcade Systems
+mame:
+  shader: crt/mame_hlsl
+  #shader: crt/crt-easymode
+  #shader_parameters:
+  #  scanline_weight: 0.40
+  #  scanline_gap_brightness: 0.75
+  #  curvature: 0.02
+  # Recommended: HLSL arcade shaders for authenticity
+  # Link: https://github.com/libretro/mame2016-libretro/tree/master/artwork/shaders
+  # Alternative: crt/crt-geom
+arcade:
+  shader: crt/mame_hlsl
+cps1:
+  shader: crt/mame_hlsl
+cps2:
+  shader: crt/mame_hlsl
+cps3:
+  shader: crt/mame_hlsl
+  
+fba:
+  shader: crt/crt-easymode
+  shader_parameters:
+    scanline_weight: 0.40
+    scanline_gap_brightness: 0.75
+    curvature: 0.02
+
+fbneo:
+  shader: crt/crt-easymode
+  shader_parameters:
+    scanline_weight: 0.40
+    scanline_gap_brightness: 0.75
+    curvature: 0.02
+
+# Computer Systems
+msx:
+  shader: crt/crt-geom
+  shader_parameters:
+    CRTgamma: 2.5
+    d: 1.5
+    scanline_weight: 0.35
+    DOTMASK: 0.3
+
+msx2:
+  shader: crt/crt-geom
+  shader_parameters:
+    CRTgamma: 2.5
+    d: 1.5
+    scanline_weight: 0.35
+    DOTMASK: 0.3
+
+amstradcpc:
+  shader: crt/crt-geom
+  shader_parameters:
+    CRTgamma: 2.6
+    d: 1.5
+    scanline_weight: 0.30
+    DOTMASK: 0.2
+
+c64:
+  shader: crt/crt-geom
+  shader_parameters:
+    CRTgamma: 2.6
+    d: 1.5
+    scanline_weight: 0.30
+    DOTMASK: 0.2
+
+amiga:
+  shader: crt/crt-geom
+  shader_parameters:
+    CRTgamma: 2.5
+    d: 1.5
+    scanline_weight: 0.35
+    DOTMASK: 0.3
+
+atarist:
+  shader: crt/crt-geom
+  shader_parameters:
+    CRTgamma: 2.5
+    d: 1.5
+    scanline_weight: 0.30
+    DOTMASK: 0.2
+
+# Modern Retro Systems
+scummvm:
+  shader: none
+  # No shader for pixel-perfect DOS/early Windows games
+
+dos:
+  shader: crt/crt-geom
+  shader_parameters:
+    d: 1.5
+    scanline_weight: 0.25
+    DOTMASK: 0.2
+
+# Wonderswan
+wswan:
+  shader: handheld/lcd3x
+  shader_parameters:
+    BRIGHTEN_LCD: 1.1
+    BRIGHTEN_SCANLINES: 0.25
+
+wswanc:
+  shader: handheld/lcd3x
+  shader_parameters:
+    BRIGHTEN_LCD: 1.05
+    BRIGHTEN_SCANLINES: 0.25
+
+# Vectrex
+vectrex:
+  shader: crt/crt-geom
+  shader_parameters:
+    CRTgamma: 2.8
+    d: 2.0
+    scanline_weight: 0.15
+    beam_width: 2.0
+  # Alternative: specialized vector graphics shader if available
+
+# Coleco
+colecovision:
+  shader: crt/crt-geom
+  shader_parameters:
+    CRTgamma: 2.5
+    d: 1.5
+    scanline_weight: 0.35
+    DOTMASK: 0.3
+
+# Intellivision
+intellivision:
+  shader: crt/crt-geom
+  shader_parameters:
+    CRTgamma: 2.5
+    d: 1.5
+    scanline_weight: 0.35
+    DOTMASK: 0.3
+
+# Odyssey
+odyssey2:
+  shader: crt/crt-geom
+  shader_parameters:
+    CRTgamma: 2.5
+    d: 1.5
+    scanline_weight: 0.35
+    DOTMASK: 0.3
+
+# Channelf
+channelf:
+  shader: crt/crt-geom
+  shader_parameters:
+    CRTgamma: 2.5
+    d: 1.5
+    scanline_weight: 0.35
+    DOTMASK: 0.3
+
+# 3DO
+3do:
+  shader: crt/crt-easymode
+  shader_parameters:
+    blur_offset: 1.5
+    scanline_weight: 0.30
+    scanline_gap_brightness: 0.65
+    curvature: 0.02
+
+# Jaguar CD
+jaguarcd:
+  shader: crt/crt-easymode
+  shader_parameters:
+    scanline_weight: 0.25
+    scanline_gap_brightness: 0.72
+    curvature: 0.02
+
+# Supervision
+supervision:
+  shader: handheld/lcd3x
+  shader_parameters:
+    BRIGHTEN_LCD: 1.2
+    BRIGHTEN_SCANLINES: 0.30
+
+# Pokemon Mini
+pokemini:
+  shader: handheld/lcd3x
+  shader_parameters:
+    BRIGHTEN_LCD: 1.2
+    BRIGHTEN_SCANLINES: 0.35
+
+# Virtual Boy
+virtualboy:
+  shader: handheld/lcd3x
+  shader_parameters:
+    BRIGHTEN_SCANLINES: 0.20
+    red_filter: 1.0
+
+# Additional recommended shader downloads:
+# 1. guest-dr-venom CRT shader pack: https://github.com/guest-r/guest.r-dr.venom
+# 2. MDAPT dithering shaders: https://github.com/libretro/common-shaders/tree/master/dithering  
+# 3. Improved handheld LCD shaders: https://github.com/libretro/common-shaders/tree/master/handheld
+# 4. NTSC shader pack: https://github.com/libretro/common-shaders/tree/master/ntsc
+# 5. Specialized arcade CRT shaders: https://github.com/libretro/mame2016-libretro/tree/master/artwork/shaders
+
+# Performance notes for RG35XX H:
+# - crt-easymode is lighter than crt-geom while still providing good CRT simulation
+# - Reduced scanline opacity and curvature for better performance
+# - Handheld systems use lighter LCD simulation shaders
+# - Avoid heavy shaders like crt-royale, crt-aperture, or complex NTSC filters
+# - Pixel-perfect scaling used for systems where authenticity demands it (like DOS games)
