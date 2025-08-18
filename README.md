@@ -11,14 +11,18 @@ This is an attempt to go a step beyond the [RGC overlay pack](https://github.com
 
 This adds four shader sets to knulli:
 * sharp-shimmerless: although this shader is now included in knully by default, there is no es shader set for it so this is a quick way to simply apply this shader across the board
+* sharp-shimmerless: applies the sharp shimmerelss scanline shader as the default and substitutes sharp shimmerless grid for LCD consoles
 * retro-game-corp-720x720: this is an implementation of the recommendations for square display handhelds at the end of the RGC article. (e.g. cubexx)
 * retro-game-corp-dramatic-crt: this mostly applies the RGC recommendations for a more nostalgic rendering and does not depend on many bezels.  It is not integer scaled.
-* retro-game-corp-normal: this applies RGC's other recommendations, mostly with integer scaling and is very much a work in progress.
+* claude-authentic: experiment where I asked claude to create a shaderset focused on authenticity but for lower spec devices like the rg35xxh
 
-There are also three presets being used:
+There is one decoration set, specific to 720x720 display devices, like the rgcubexx.
+* retro-gamee-corps-720x720: This includes the configured bezels from the RGC shader guide and is not mandatory.  The knulli default decoration set may be better in some cases and certainly has much better system coverage.
+
+There are also three presets included:
 * pixel_aa_fast: in order to use the included pixel_aa_fast shader
 * rgc_glow_crt: in order to have a preset that combines kawaze_glow and zfast_crt_geo_svideo
 * pixel_aa_w_subpx: in order to use the pixel_aa with subpixel rendering set to 1
 
 Installation: 
-Copy the 'shaders' folder into the SHARE or userdata folder on the device, at the same level as the roms and bios folders.
+Copy the 'shaders' and 'decorations' folders into the SHARE or userdata folder on the device, at the same level as the roms and bios folders.
