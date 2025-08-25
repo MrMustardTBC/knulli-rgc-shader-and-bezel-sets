@@ -4,7 +4,9 @@ default:
 gamegear:
   shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
 gameandwatch:
-  shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+  shader: none
+lcdgames:
+  shader: none
 pokemini:
   shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
 gb: 

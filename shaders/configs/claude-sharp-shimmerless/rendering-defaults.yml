@@ -1,0 +1,414 @@
+# Batocera/Knulli Rendering Defaults Configuration
+# Using sharp-shimmerless/shaders_glsl/sharp-shimmerless shader family for authentic retro display simulation
+
+default:
+  shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless
+
+systems:
+  # === HOME CONSOLES (CRT-based) - scanlines shader ===
+  
+  atari2600:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.6
+    brightness: 1.1
+    
+  atari5200:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.6
+    
+  atari7800:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.6
+    
+  colecovision:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.7
+    
+  intellivision:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.7
+    brightness: 1.1
+    
+  nes:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.8
+    contrast: 1.1
+    
+  famicom:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.8
+    contrast: 1.1
+    
+  fds:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.8
+    
+  snes:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.7
+    brightness: 1.05
+    
+  sfc:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.7
+    brightness: 1.05
+    
+  n64:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.5
+    brightness: 1.1
+    
+  gamecube:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.4
+    
+  wii:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.4
+    
+  mastersystem:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.7
+    
+  megadrive:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.7
+    contrast: 1.1
+    
+  genesis:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.7
+    contrast: 1.1
+    
+  sega32x:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.6
+    
+  segacd:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.6
+    
+  saturn:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.5
+    
+  dreamcast:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.4
+    
+  psx:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.5
+    brightness: 1.05
+    
+  pcengine:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.7
+    
+  pcenginecd:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.7
+    
+  supergrafx:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.7
+    
+  neogeo:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.8
+    contrast: 1.15
+    
+  neogeocd:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.8
+    contrast: 1.15
+    
+  3do:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.5
+    
+  jaguar:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.6
+    
+  # === ARCADE SYSTEMS - Grid shader for authenticity ===
+  
+  arcade:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+    grid_strength: 0.3
+    brightness: 1.1
+    contrast: 1.1
+    
+  mame:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+    grid_strength: 0.3
+    brightness: 1.1
+    contrast: 1.1
+    
+  fba:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+    grid_strength: 0.3
+    brightness: 1.1
+    contrast: 1.1
+    
+  fbneo:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+    grid_strength: 0.3
+    brightness: 1.1
+    contrast: 1.1
+    
+  naomi:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+    grid_strength: 0.2
+    
+  atomiswave:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+    grid_strength: 0.2
+    
+  model2:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+    grid_strength: 0.2
+    
+  model3:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+    grid_strength: 0.2
+    
+  # === HANDHELD SYSTEMS (LCD-based) - Grid shader ===
+  
+  lcdgames: 
+    shader: none
+  gameandwatch:
+    shader: none
+
+  gameboy:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+    grid_strength: 0.4
+    brightness: 1.2
+    contrast: 1.3
+    
+  gbcolor:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+    grid_strength: 0.4
+    brightness: 1.15
+    contrast: 1.2
+    
+  gbc:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+    grid_strength: 0.4
+    brightness: 1.15
+    contrast: 1.2
+    
+  gba:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+    grid_strength: 0.3
+    brightness: 1.1
+    contrast: 1.15
+    
+  gamegear:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+    grid_strength: 0.4
+    brightness: 1.1
+    
+  lynx:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+    grid_strength: 0.4
+    brightness: 1.2
+    
+  wswan:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+    grid_strength: 0.4
+    brightness: 1.2
+    
+  wswanc:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+    grid_strength: 0.3
+    brightness: 1.1
+    
+  nds:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+    grid_strength: 0.2
+    
+  3ds:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+    grid_strength: 0.2
+    
+  psp:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+    grid_strength: 0.2
+    brightness: 1.05
+    
+  vita:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+    grid_strength: 0.15
+    
+  ngp:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+    grid_strength: 0.4
+    brightness: 1.2
+    
+  ngpc:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+    grid_strength: 0.3
+    brightness: 1.1
+    
+  pokemini:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+    grid_strength: 0.5
+    brightness: 1.3
+    contrast: 1.4
+    
+  # === HOME COMPUTERS - Mixed based on typical display ===
+  
+  amstradcpc:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.7
+    brightness: 1.1
+    
+  apple2:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.8
+    brightness: 1.15
+    
+  apple2gs:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.7
+    
+  atari800:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.7
+    
+  atarist:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.6
+    
+  c64:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.8
+    brightness: 1.1
+    
+  vic20:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.8
+    brightness: 1.1
+    
+  plus4:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.8
+    
+  pet:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.9
+    brightness: 1.2
+    
+  msx:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.7
+    
+  msx1:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.7
+    
+  msx2:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.7
+    
+  msx2+:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.7
+    
+  msxturbor:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.6
+    
+  zxspectrum:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.8
+    brightness: 1.1
+    
+  zx81:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.9
+    brightness: 1.2
+    
+  thomson:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.7
+    
+  to8:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.7
+    
+  mo5:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.7
+    
+  sam:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.8
+    
+  # Modern computers (LCD era)
+  x68000:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+    grid_strength: 0.2
+    
+  pc88:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.6
+    
+  pc98:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+    grid_strength: 0.2
+    
+  dos:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.6
+    
+  windows:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless
+    
+  # === FANTASY/HOMEBREW SYSTEMS - Clean sharp for modern aesthetic ===
+  
+  pico8:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless
+    brightness: 1.05
+    
+  tic80:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless
+    brightness: 1.05
+    
+  solarus:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless
+    
+  uzebox:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-scanlines
+    scanlines_strength: 0.6
+    
+  # === PINBALL ===
+  
+  vpinball:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless
+
+  # === MISCELLANEOUS SYSTEMS ===
+  
+  moonlight:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless
+    
+  kodi:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless
+    
+  ports:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless
+    
+  scummvm:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless
+    
+  # === NEWER SYSTEMS (Progressive scan era) ===
+  
+  xbox:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless
+    
+  xbox360:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless
+    
+  switch:
+    shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless

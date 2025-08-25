@@ -459,6 +459,10 @@ virtualboy:
     BRIGHTEN_SCANLINES: 0.20
     red_filter: 1.0
 
+lcdgames: 
+  shader: none
+gameandwatch:
+  shader: none
 # Additional recommended shader downloads:
 # 1. guest-dr-venom CRT shader pack: https://github.com/guest-r/guest.r-dr.venom
 # 2. MDAPT dithering shaders: https://github.com/libretro/common-shaders/tree/master/dithering  

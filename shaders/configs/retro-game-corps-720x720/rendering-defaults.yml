@@ -15,3 +15,7 @@ psx:
   shader: rgcshaders/pixel_aa_fast
 dreamcast:
   shader: rgcshaders/pixel_aa_fast
+lcdgames: 
+  shader: none
+gameandwatch:
+  shader: none

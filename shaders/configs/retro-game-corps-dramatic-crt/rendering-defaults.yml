@@ -21,6 +21,8 @@ gamegear:
   shader: none
 gameandwatch:
   shader: none
+lcdgames:
+  shader: none  
 pokemini:
   shader: none
 gb: 
