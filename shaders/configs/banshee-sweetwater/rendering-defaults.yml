@@ -1,0 +1,25 @@
+default:
+ shader: banshee-sweetwater-shaders/kawase-glow-lcd-grid-v2-sharp-shimmerless
+ 
+gba:
+  shader: handheld/lcd-grid-v2
+gb:
+  shader: handheld/lcd-grid-v2
+gbc:
+  shader: handheld/lcd-grid-v2
+gamegear:
+  shader: handheld/lcd-grid-v2
+ngp:
+  shader: handheld/lcd-grid-v2
+ngpc:
+  shader: handheld/lcd-grid-v2
+lynx:
+  shader: handheld/lcd-grid-v2
+wswan:
+  shader: handheld/lcd-grid-v2
+wswanc:
+  shader: handheld/lcd-grid-v2
+psp:
+  shader: handheld/lcd-grid-v2-psp-color
+nds:
+  shader: handheld/lcd-grid-v2-palm-color
