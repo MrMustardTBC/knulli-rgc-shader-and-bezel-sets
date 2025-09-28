@@ -45,7 +45,7 @@ n64dd:
 gb:
   shader: /usr/share/batocera/shaders/handheld/gameboy
 gbc:
-  shader: /usr/share/batocera/shaders/handheld/gbc-color
+  shader: /usr/share/batocera/shaders/handheld/lcd_grid_v2_motionblur
 gba:
   shader: claude_authentic_presets/integer/gba_lcd
 nds:

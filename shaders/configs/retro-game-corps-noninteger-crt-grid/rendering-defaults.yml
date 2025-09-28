@@ -1,5 +1,5 @@
 default:
-  shader: /usr/share/batocera/shaders/crt-blurPi-soft
+  shader: /usr/share/batocera/shaders/crt/crt-blurPi-soft
   
 gamegear:
   shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
