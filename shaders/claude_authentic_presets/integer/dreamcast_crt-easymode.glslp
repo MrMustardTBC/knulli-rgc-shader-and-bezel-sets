@@ -1,0 +1,12 @@
+# dreamcast_crt-easymode.glslp
+shaders = "1"
+shader0 = "/usr/share/batocera/shaders/crt/shaders/crt-easymode.glsl"
+filter_linear0 = "true"
+wrap_mode0 = "clamp_to_border"
+mipmap_input0 = "false"
+alias0 = ""
+float_framebuffer0 = "false"
+srgb_framebuffer0 = "false"
+scanline_weight = "0.250000"
+scanline_gap_brightness = "0.550000"
+curvature = "0.020000"

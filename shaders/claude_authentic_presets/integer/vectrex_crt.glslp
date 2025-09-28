@@ -1,0 +1,13 @@
+# vectrex_crt.glslp - Vectrex vector graphics
+shaders = "1"
+shader0 = "/usr/share/batocera/shaders/crt/shaders/crt-geom.glsl"
+filter_linear0 = "true"
+wrap_mode0 = "clamp_to_border"
+mipmap_input0 = "false"
+alias0 = ""
+float_framebuffer0 = "false"
+srgb_framebuffer0 = "false"
+CRTgamma = "2.800000"
+d = "2.000000"
+scanline_weight = "0.150000"
+beam_width = "2.000000"

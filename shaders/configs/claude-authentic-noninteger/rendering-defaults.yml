@@ -1,0 +1,277 @@
+# Batocera/Knulli Rendering Defaults Configuration
+# Optimized for NON-INTEGER SCALING compatibility
+# RG35XX H (640x480) - Works well with any scaling ratio
+
+# Global fallback - works with any scaling
+default:
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/sharp-shimmerless
+
+# Atari Systems - Light CRT effects
+atari800:
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger
+atari800:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+atari2600:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+atari5200:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+atari7800:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+lynx:
+  shader: claude_authentic_presets/noninteger/handheld_sharp
+jaguar:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+jaguarcd:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+
+# Nintendo Systems - Balanced approach
+nes:
+  shader: claude_authentic_presets/noninteger/retro_smooth
+fds:
+  shader: claude_authentic_presets/noninteger/retro_smooth
+snes:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+sgb:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+sufami:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+satellaview:
+    shader: claude_authentic_presets/noninteger/crt_easymode_light
+n64:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+n64dd:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+
+# Nintendo Handhelds - Sharp scaling
+gb:
+  shader: /usr/share/batocera/shaders/handheld/gameboy
+gbc:
+  shader: /usr/share/batocera/shaders/handheld/gbc-color
+gba:
+  shader: claude_authentic_presets/noninteger/handheld_sharp
+nds:
+  shader: claude_authentic_presets/noninteger/handheld_sharp
+pokemini:
+  shader: claude_authentic_presets/noninteger/handheld_sharp
+virtualboy:
+  shader: claude_authentic_presets/noninteger/handheld_sharp
+
+# Sega Systems - Light CRT
+sg1000:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light 
+mastersystem:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+megadrive:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+segacd:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+sega32x:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+saturn:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+dreamcast:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+
+# Sega Handhelds
+gamegear:
+  shader: claude_authentic_presets/noninteger/handheld_sharp
+
+# Sony Systems
+psx:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+psp:
+  shader: claude_authentic_presets/noninteger/handheld_sharp
+
+# PC Engine / TurboGrafx
+pcengine:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+pcenginecd:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+supergrafx:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+
+# SNK Systems
+neogeo:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+neogeocd:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+ngp:
+  shader: claude_authentic_presets/noninteger/handheld_sharp
+ngpc:
+  shader: claude_authentic_presets/noninteger/handheld_sharp
+
+# Arcade Systems - Light CRT for compatibility
+mame:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+fbneo:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+atomiswave:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+naomi:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+naomi2:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+daphne:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+singe:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+
+# Computer Systems - Very light effects
+msx1:
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger
+msx2:
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger
+msx2+:
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger
+msxturbor:
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger
+amstradcpc:
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger
+c20:
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger
+c64:
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger
+c128:
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger
+cplus4:
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger
+pet:
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger
+amiga500:
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger
+amiga1200:
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger
+atarist:
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger
+atom:
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger
+bbc:
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger
+camplynx:
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger
+coco:
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger
+electron:
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger
+fm7:
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger
+fmtowns:
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger
+laser310:
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger
+pc88:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+pc98:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+socrates:
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger
+archimedes:
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger 
+apmf1000:
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger
+ti99:
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger
+x1:
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger
+x68000:
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger 
+zx81:
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger
+zxspectrum:
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger
+coco:
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger
+pdp1:
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger
+tutor:
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger
+thomson:
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger
+xegs:
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger
+vis:  
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger
+macintosh:
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger
+spectravideo:
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger
+apple2:
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger
+apple2gs:
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger
+
+dos:
+  shader: claude_authentic_presets/noninteger/computer_crt_noninteger  
+
+# Wonderswan
+wswan:
+  shader: claude_authentic_presets/noninteger/handheld_sharp
+wswanc:
+  shader: claude_authentic_presets/noninteger/handheld_sharp
+
+# Vectrex - Minimal effects
+vectrex:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+
+# Early Consoles
+colecovision:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+intellivision:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+o2em:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+channelf:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+crvision:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+videopacplus:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+scv:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+multivision:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light  
+
+# 3DO, CDI - Minimal effects
+3do:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+cdi:
+  shader: claude_authentic_presets/noninteger/crt_easymode_light
+  
+# Handhelds with basic LCD - Sharp scaling
+supervision:
+  shader: claude_authentic_presets/noninteger/handheld_sharp
+megaduck:
+  shader: claude_authentic_presets/noninteger/handheld_sharp
+gamecom:
+  shader: claude_authentic_presets/noninteger/handheld_sharp
+gp32:
+  shader: claude_authentic_presets/noninteger/handheld_sharp
+arduboy:
+  shader: claude_authentic_presets/noninteger/handheld_sharp
+lowresnx:
+  shader: claude_authentic_presets/noninteger/handheld_sharp
+gamepock:
+  shader: claude_authentic_presets/noninteger/handheld_sharp
+gamate:
+  shader: claude_authentic_presets/noninteger/handheld_sharp
+gmaster:
+  shader: claude_authentic_presets/noninteger/handheld_sharp
+
+lutro:
+  shader: none
+pico8:
+  shader: none
+tic80:
+  shader: none
+uzebox:
+  shader: none
+vircon32:
+  shader: none
+scummvm:
+  shader: none
+zmachine:
+  shader: none
+gameandwatch:
+  shader: none
+lcdgames:
+  shader: none 

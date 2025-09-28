@@ -1,0 +1,63 @@
+default:
+  shader: /usr/share/batocera/shaders/crt-blurPi-soft
+  
+gamegear:
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+pokemini:
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+gb: 
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+gbc:
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+gba:
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+virtualboy: 
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+ds:
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+psp:
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+lynx:
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+gamate:
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+gmaster:
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+supervision:
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+megaduck: 
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+gamecom:
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+ngpc:
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+ngp:
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+wswan:
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+wswanc:
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+gp32:
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+arduboy:
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+lowresnx:
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+lutro:
+  shader: none
+pico8:
+  shader: none
+tic80:
+  shader: none
+uzebox:
+  shader: none
+vircon32:
+  shader: none
+scummvm:
+  shader: none
+zmachine:
+  shader: none
+gameandwatch:
+  shader: none
+lcdgames:
+  shader: none  

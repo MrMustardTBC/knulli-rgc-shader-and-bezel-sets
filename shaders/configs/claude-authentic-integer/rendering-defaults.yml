@@ -1,0 +1,276 @@
+# Batocera/Knulli Rendering Defaults Configuration
+# Optimized for RG35XX H (640x480) - Performance over visuals
+# Focus on authenticity while maintaining smooth gameplay
+# Updated to reference consolidated preset files with full paths
+
+# Global fallback for any unlisted systems
+default:
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/sharp-shimmerless
+
+# Atari Systems
+atari800:
+  shader: claude_authentic_presets/integer/computer_crt
+atari2600:
+  shader: claude_authentic_presets/integer/atari_crt-geom
+atari5200:
+  shader: claude_authentic_presets/integer/atari_basic_crt-geom
+atari7800:
+  shader: claude_authentic_presets/integer/atari_basic_crt-geom
+lynx:
+  shader: claude_authentic_presets/integer/handheld_basic_lcd
+jaguar:
+  shader: claude_authentic_presets/integer/jaguar_crt-easymode
+jaguarcd:
+  shader: claude_authentic_presets/integer/jaguar_crt-easymode
+
+# Nintendo Systems
+nes:
+  shader: /usr/share/batocera/shaders/ntsc/ntsc-256px-svideo.glslp
+fds:
+  shader: /usr/share/batocera/shaders/ntsc/ntsc-256px-svideo.glslp
+snes:
+  shader: claude_authentic_presets/integer/snes_crt-easymode
+sufami:
+  shader: claude_authentic_presets/integer/snes_crt-easymode  
+satellaview:
+  shader: claude_authentic_presets/integer/snes_crt-easymode
+sgb: 
+  shader: claude_authentic_presets/integer/snes_crt-easymode
+n64:
+  shader: claude_authentic_presets/integer/n64_crt-easymode
+n64dd:
+  shader: claude_authentic_presets/integer/n64_crt-easymode
+
+# Nintendo Handhelds
+gb:
+  shader: /usr/share/batocera/shaders/handheld/gameboy
+gbc:
+  shader: /usr/share/batocera/shaders/handheld/gbc-color
+gba:
+  shader: claude_authentic_presets/integer/gba_lcd
+nds:
+  shader: claude_authentic_presets/integer/modern_handheld_lcd
+pokemini:
+  shader: claude_authentic_presets/integer/pokemini_lcd
+virtualboy:
+  shader: claude_authentic_presets/integer/virtualboy_lcd
+
+# Sega Systems
+sg1000:
+  shader: claude_authentic_presets/integer/early_console_crt
+mastersystem:
+  shader: claude_authentic_presets/integer/sega_8bit_crt
+megadrive:
+  shader: claude_authentic_presets/integer/sega_16bit_crt
+segacd:
+  shader: claude_authentic_presets/integer/sega_16bit_crt
+sega32x:
+  shader: claude_authentic_presets/integer/sega_16bit_crt
+saturn:
+  shader: claude_authentic_presets/integer/saturn_crt-easymode
+dreamcast:
+  shader: claude_authentic_presets/integer/dreamcast_crt-easymode
+
+# Sega Handhelds
+gamegear:
+  shader: claude_authentic_presets/integer/gamegear_lcd
+
+# Sony Systems
+psx:
+  shader: claude_authentic_presets/integer/psx_crt-easymode
+psp:
+  shader: claude_authentic_presets/integer/psp_lcd
+
+# PC Engine / TurboGrafx
+pcengine:
+  shader: claude_authentic_presets/integer/pcengine_crt
+pcenginecd:
+  shader: claude_authentic_presets/integer/pcengine_crt
+supergrafx:
+  shader: claude_authentic_presets/integer/pcengine_crt
+
+# SNK Systems
+neogeo:
+  shader: claude_authentic_presets/integer/neogeo_crt
+neogeocd:
+  shader: claude_authentic_presets/integer/neogeo_crt
+ngp:
+  shader: claude_authentic_presets/integer/ngp_lcd
+ngpc:
+  shader: claude_authentic_presets/integer/ngp_lcd
+
+# Arcade Systems
+mame:
+  shader: claude_authentic_presets/integer/arcade_crt
+fbneo:
+  shader: claude_authentic_presets/integer/arcade_crt
+atomiswave:
+  shader: claude_authentic_presets/integer/arcade_crt
+daphne:
+  shader: claude_authentic_presets/integer/arcade_crt
+singe:
+  shader: claude_authentic_presets/integer/arcade_crt
+naomi:
+  shader: claude_authentic_presets/integer/arcade_crt
+naomi2:
+  shader: claude_authentic_presets/integer/arcade_crt
+
+# Computer Systems
+msx1:
+  shader: claude_authentic_presets/integer/computer_crt
+msx2:
+  shader: claude_authentic_presets/integer/computer_crt
+msx2+:
+  shader: claude_authentic_presets/integer/computer_crt
+msxturbor:
+  shader: claude_authentic_presets/integer/computer_crt
+amstradcpc:
+  shader: claude_authentic_presets/integer/computer_crt
+c20:
+  shader: claude_authentic_presets/integer/computer_crt
+c64:
+  shader: claude_authentic_presets/integer/computer_crt
+c128:
+  shader: claude_authentic_presets/integer/computer_crt
+cplus4:
+  shader: claude_authentic_presets/integer/computer_crt
+pet:
+  shader: claude_authentic_presets/integer/computer_crt
+amiga500:
+  shader: claude_authentic_presets/integer/computer_crt
+amiga1200:
+  shader: claude_authentic_presets/integer/computer_crt
+atarist:
+  shader: claude_authentic_presets/integer/computer_crt
+atom:
+  shader: claude_authentic_presets/integer/computer_crt
+bbc:
+  shader: claude_authentic_presets/integer/computer_crt
+camplynx:
+  shader: claude_authentic_presets/integer/computer_crt
+coco:
+  shader: claude_authentic_presets/integer/computer_crt
+electron:
+  shader: claude_authentic_presets/integer/computer_crt
+fm7:
+  shader: claude_authentic_presets/integer/computer_crt
+fmtowns:
+  shader: claude_authentic_presets/integer/computer_crt
+laser310:
+  shader: claude_authentic_presets/integer/computer_crt
+pc88:
+  shader: claude_authentic_presets/integer/computer_crt
+pc98:
+  shader: claude_authentic_presets/integer/computer_crt
+socrates:
+  shader: claude_authentic_presets/integer/computer_crt
+archimedes:
+  shader: claude_authentic_presets/integer/computer_crt
+apmf1000:
+  shader: claude_authentic_presets/integer/computer_crt
+ti99:
+  shader: claude_authentic_presets/integer/computer_crt
+x1:
+  shader: claude_authentic_presets/integer/computer_crt
+x68000:
+  shader: claude_authentic_presets/integer/computer_crt
+zx81:
+  shader: claude_authentic_presets/integer/computer_crt
+zxspectrum:
+  shader: claude_authentic_presets/integer/computer_crt
+coco:
+  shader: claude_authentic_presets/integer/computer_crt
+pdp1:
+  shader: claude_authentic_presets/integer/computer_crt
+tutor:
+  shader: claude_authentic_presets/integer/computer_crt
+thomson:
+  shader: claude_authentic_presets/integer/computer_crt
+xegs:
+  shader: claude_authentic_presets/integer/computer_crt
+vis:  
+  shader: claude_authentic_presets/integer/computer_crt
+macintosh:
+  shader: claude_authentic_presets/integer/computer_crt
+spectravideo:
+  shader: claude_authentic_presets/integer/computer_crt
+apple2:
+  shader: claude_authentic_presets/integer/computer_crt
+apple2gs:
+  shader: claude_authentic_presets/integer/computer_crt
+
+dos:
+  shader: claude_authentic_presets/integer/dos_crt
+
+# Wonderswan
+wswan:
+  shader: claude_authentic_presets/integer/wonderswan_lcd
+wswanc:
+  shader: claude_authentic_presets/integer/wonderswan_color_lcd
+
+# Vectrex
+vectrex:
+  shader: claude_authentic_presets/integer/vectrex_crt
+
+# early consoles - Minimal effects
+colecovision:
+  shader: claude_authentic_presets/integer/early_console_crt
+intellivision:
+  shader: claude_authentic_presets/integer/early_console_crt
+o2em:
+  shader: claude_authentic_presets/integer/early_console_crt
+channelf:
+  shader: claude_authentic_presets/integer/early_console_crt
+crvision:
+  shader: claude_authentic_presets/integer/early_console_crt
+videopacplus:
+  shader: claude_authentic_presets/integer/early_console_crt
+scv:
+  shader: claude_authentic_presets/integer/early_console_crt
+multivision:
+  shader: claude_authentic_presets/integer/early_console_crt
+
+# 3DO, CDI - Minimal effects
+3do:
+  shader: claude_authentic_presets/integer/3do_crt-easymode
+cdi:
+  shader: claude_authentic_presets/integer/3do_crt-easymode
+
+# Handhelds with basic LCD - Sharp scaling
+supervision:
+  shader: claude_authentic_presets/integer/supervision_lcd
+megaduck:
+  shader: claude_authentic_presets/integer/handheld_basic_lcd
+gamecom:
+  shader: claude_authentic_presets/integer/handheld_basic_lcd
+gp32:
+  shader: claude_authentic_presets/integer/handheld_basic_lcd
+arduboy:
+  shader: claude_authentic_presets/integer/handheld_basic_lcd
+lowresnx:
+  shader: claude_authentic_presets/integer/handheld_basic_lcd
+gamepock:
+  shader: claude_authentic_presets/integer/handheld_basic_lcd
+gamate:
+  shader: claude_authentic_presets/integer/handheld_basic_lcd
+gmaster:
+  shader: claude_authentic_presets/integer/handheld_basic_lcd
+
+lutro:
+  shader: none
+pico8:
+  shader: none
+tic80:
+  shader: none
+uzebox:
+  shader: none
+vircon32:
+  shader: none
+scummvm:
+  shader: none
+zmachine:
+  shader: none
+gameandwatch:
+  shader: none
+lcdgames:
+  shader: none 

@@ -1,0 +1,13 @@
+# sega_16bit_crt.glslp - Mega Drive, Sega CD, 32X
+shaders = "1"
+shader0 = "/usr/share/batocera/shaders/crt/shaders/crt-geom.glsl"
+filter_linear0 = "true"
+wrap_mode0 = "clamp_to_border"
+mipmap_input0 = "false"
+alias0 = ""
+float_framebuffer0 = "false"
+srgb_framebuffer0 = "false"
+CRTgamma = "2.400000"
+d = "1.500000"
+scanline_weight = "0.400000"
+DOTMASK = "0.300000"

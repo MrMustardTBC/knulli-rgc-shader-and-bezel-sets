@@ -1,0 +1,12 @@
+# dos_crt.glslp - DOS games
+shaders = "1"
+shader0 = "/usr/share/batocera/shaders/crt/shaders/crt-geom.glsl"
+filter_linear0 = "true"
+wrap_mode0 = "clamp_to_border"
+mipmap_input0 = "false"
+alias0 = ""
+float_framebuffer0 = "false"
+srgb_framebuffer0 = "false"
+d = "1.500000"
+scanline_weight = "0.250000"
+DOTMASK = "0.200000"
