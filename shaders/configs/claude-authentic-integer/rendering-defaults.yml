@@ -141,7 +141,7 @@ amiga500:
 amiga1200:
   shader: claude_authentic_presets/integer/computer_crt
 atarist:
-  shader: claude_authentic_presets/integer/computer_crt
+  shader: claude_authentic_presets/integer/arcade_crt
 atom:
   shader: claude_authentic_presets/integer/computer_crt
 bbc:
@@ -171,7 +171,7 @@ apmf1000:
 ti99:
   shader: claude_authentic_presets/integer/computer_crt
 x1:
-  shader: claude_authentic_presets/integer/computer_crt
+  shader: claude_authentic_presets/integer/arcade_rct
 x68000:
   shader: claude_authentic_presets/integer/computer_crt
 zx81:

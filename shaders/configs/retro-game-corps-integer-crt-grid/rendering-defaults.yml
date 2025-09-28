@@ -2,51 +2,47 @@ default:
   shader: presets/rgc_glow_crt
 
 gamegear:
-  shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
-gameandwatch:
-  shader: none
-lcdgames:
-  shader: none  
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/shaders/sharp-shimmerless-grid.glsl
 pokemini:
-  shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/shaders/sharp-shimmerless-grid.glsl
 gb: 
-  shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/shaders/sharp-shimmerless-grid.glsl
 gbc:
-  shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/shaders/sharp-shimmerless-grid.glsl
 gba:
-  shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/shaders/sharp-shimmerless-grid.glsl
 virtualboy: 
-  shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
-ds:
-  shader: handheld/lcd1x_nds
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/shaders/sharp-shimmerless-grid.glsl
+nds:
+  shader: /usr/share/batocera/shaders/handheld/lcd1x_nds
 psp:
-  shader: handheld/lcd1x_psp
+  shader: /usr/share/batocera/shaders/handheld/lcd1x_psp
 lynx:
-  shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/shaders/sharp-shimmerless-grid.glsl
 gamate:
-  shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/shaders/sharp-shimmerless-grid.glsl
 gmaster:
-  shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/shaders/sharp-shimmerless-grid.glsl
 supervision:
-  shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/shaders/sharp-shimmerless-grid.glsl
 megaduck: 
-  shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/shaders/sharp-shimmerless-grid.glsl
 gamecom:
-  shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/shaders/sharp-shimmerless-grid.glsl
 ngpc:
-  shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/shaders/sharp-shimmerless-grid.glsl
 ngp:
-  shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/shaders/sharp-shimmerless-grid.glsl
 wswan:
-  shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/shaders/sharp-shimmerless-grid.glsl
 wswanc:
-  shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/shaders/sharp-shimmerless-grid.glsl
 gp32:
-  shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/shaders/sharp-shimmerless-grid.glsl
 arduboy:
-  shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/shaders/sharp-shimmerless-grid.glsl
 lowresnx:
-  shader: sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
+  shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/shaders/sharp-shimmerless-grid.glsl
 lutro:
   shader: none
 pico8:
@@ -61,3 +57,7 @@ scummvm:
   shader: none
 zmachine:
   shader: none
+gameandwatch:
+  shader: none
+lcdgames:
+  shader: none 

@@ -1,6 +1,6 @@
 default:
   shader: /usr/share/batocera/shaders/crt/crt-blurPi-soft
-  
+
 gamegear:
   shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
 pokemini:
@@ -13,7 +13,7 @@ gba:
   shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
 virtualboy: 
   shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
-ds:
+nds:
   shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid
 psp:
   shader: /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/sharp-shimmerless-grid

@@ -1,0 +1,4 @@
+shaders = 1
+
+shader0 = /usr/share/batocera/shaders/handheld/shaders/bevel.glsl
+filter_linear0 = false

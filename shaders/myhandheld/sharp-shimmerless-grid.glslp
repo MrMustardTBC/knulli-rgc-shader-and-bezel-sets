@@ -1,0 +1,4 @@
+shaders = 1
+
+shader0 = /usr/share/batocera/shaders/sharp-shimmerless/shaders_glsl/shaders/sharp-shimmerless-grid.glsl
+filter_linear0 = true
